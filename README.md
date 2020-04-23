@@ -51,7 +51,7 @@ Pengujian dengan jeda waktu ditujukan untuk mengetahui performa fungsi rekognisi
 
 ## Flow Program
 
-
+![](/home/gunturd/Belajar/Tugas_Akhir/Ke GH/asset/FCProg.png)
 
 ## Cara Menggunakan
 
