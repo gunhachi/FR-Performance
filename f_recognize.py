@@ -72,9 +72,9 @@ while True:
         cv2.putText(img, name, (x+5,y-5), cv2.FONT_HERSHEY_DUPLEX, 1, (255,255,255),2)
         cv2.putText(img,str(conf),(x,y+h+15),cv2.FONT_HERSHEY_PLAIN,1,(255,255,255),2)
           
-    k = cv2.waitKey(30) & 0xff
-    if k == 32 :
-    # if count >= 30 :
+#     k = cv2.waitKey(30) & 0xff
+#     if k == 32 :
+    if count >= nfr :
       count = 0
       start_time = time.time()
 
