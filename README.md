@@ -21,9 +21,11 @@ time
 
 ---
 
-### Riwayat Percobaan
+### Hasil Percobaan
 
 #### 1 Realtime Test Sequential
+
+Tahap ini menguji keberhasilan rekognisi wajah secara bertahap dari 1 - 5 wajah dalam bersamaan dalam satu frame. Data pengujian dapat diakses melalui local file ataupun webcam dengan resolusi VGA berkisar 640x480 piksel.
 
 | Jumlah Wajah |      Metode      | Keberhasilan |
 | :----------: | :--------------: | :----------: |
@@ -31,21 +33,29 @@ time
 |      2       | Realtime + Local |    100 %     |
 |      3       | Realtime + Local |   90 -99 %   |
 |      4       | Realtime + Local |     81 %     |
-|      5       |     Realtime     |     76 %     |
+|      5       |     Realtime     |     56 %     |
 
 #### 2 Interval Test
 
-| Interval Time | Kondisi FPS |
-| :-----------: | :---------: |
-|    1 detik    |     20+     |
-|    2 detik    |    -+ 20    |
-|    3 detik    |   15 - 20   |
-|    4 detik    |   10 - 15   |
-|    5 detik    |    -+ 10    |
+Pengujian dengan jeda waktu ditujukan untuk mengetahui performa fungsi rekognisi wajah ketika berjalan secara realtime dengan acuan angka frame per second (FPS). Uji dilakukan pada fungsi rekognisi untuk 10 frame pertama yang berhasil direkognisi.
+
+| Interval Time | Rerata FPS 10 Frame |
+| :-----------: | :-----------------: |
+|    1 detik    |        3.58         |
+|    2 detik    |        2.68         |
+|    3 detik    |        2.08         |
+|    4 detik    |        1.74         |
+|    5 detik    |        1.46         |
 
 ---
 
-### Pengujian Tambahan(Belum Dilakukan) :arrow_down_small:
+## Flow Program
 
-2. Penambahan fitur untuk peningkatan model
-3. Peningkatan Uji Algoritma
+
+
+## Cara Menggunakan
+
+```
+ditunggu saja lah ya
+```
+
