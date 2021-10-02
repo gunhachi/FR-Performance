@@ -59,3 +59,4 @@ Pengujian dengan jeda waktu ditujukan untuk mengetahui performa fungsi rekognisi
 ditunggu saja lah ya
 ```
 
+### Addition changing to modular
